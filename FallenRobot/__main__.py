@@ -89,7 +89,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🖳 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="🤫 ᴀʙᴏᴜᴛ ", callback_data="fallen_"),
@@ -711,12 +711,12 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-ㅤ🥀 MextAspirantBot is Alive...
+🥀 MextAspirantBot is Alive...
 
 ┏•❅────✧❅✦❅✧────❅•┓
-ㅤ★ **ᴏᴡɴᴇʀ :** Shravan
-  ★ **ʙᴏᴛ :** @MextAspirantBot
-ㅤ★ **ᴠᴇʀꜱɪᴏɴ :** 1.0
+ ★ **ᴏᴡɴᴇʀ :** Shravan
+ ★ **ʙᴏᴛ :** @MextAspirantBot
+ ★ **ᴠᴇʀꜱɪᴏɴ :** 1.0.1
 ┗•❅────✧❅✦❅✧────❅•┛""",
                 parse_mode=ParseMode.MARKDOWN,
             )
